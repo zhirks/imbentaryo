@@ -1,0 +1,17 @@
+{
+    "name": "kaori/php_import",
+    "autoload": {
+        "psr-4": {
+            "Kaori\\PhpImport\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "PinoyFreeCoder",
+            "email": "pinoyfreecoder@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.27"
+    }
+}

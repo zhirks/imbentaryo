@@ -1,0 +1,61 @@
+body{
+    /*background: linear-gradient(#e66465, #9198e5);*/
+    font-family: "Roboto", sans-serif;
+    
+}
+
+/*
+header{
+    background: linear-gradient(180deg, #b6dbfd, #93acfc);
+}
+*/
+
+.navbar-brand,
+.text-primary{
+    color:#0a58ca !important;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: #0a58ca !important;
+    border:none;
+}
+
+.btn-primary:hover{
+    background-color: #257dfd !important;
+}
+
+.logout:hover{
+    background-color: hsl(0, 81%, 50%) !important;
+}
+
+.nav-link:hover{
+    color:#0a58ca;
+}
+
+p {
+    font-size: 18px;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+#inv-summary,
+#inv-activity,
+#inv-charts-graphs,
+#inv-reports{
+    height: 25vh;
+    border: 1px solid black;
+}
+
+.row,
+#inv-summary,
+#inv-activity{
+    padding-left: 0px;
+    padding-right: 0px;
+}
